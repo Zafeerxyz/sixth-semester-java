@@ -5,7 +5,7 @@ public class dConversion{
         while(num>0){
             int rem = num%2 ;
             bin = rem + bin ;
-            num = num/2 ;
+            num = num/2 ;   
 
         }return bin;
     }
